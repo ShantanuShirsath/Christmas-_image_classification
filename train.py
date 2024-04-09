@@ -151,8 +151,8 @@ to_tensor = transforms.ToTensor()
 
 
 # Define data path
-train_data_path = '/home/g063898/Kaggle_shantanu/data/train'
-train_val_path = '/home/g063898/Kaggle_shantanu/data/val/toclasify'
+train_data_path = ''
+train_val_path = ''
 
 # Load Training Images
 data_set = ChristmasImages(train_data_path, training = True)
